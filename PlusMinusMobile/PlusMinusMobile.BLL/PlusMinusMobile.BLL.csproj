@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
+    <Folder Include="Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PlusMinusMobile.Core\PlusMinusMobile.Core.csproj" />
+    <ProjectReference Include="..\PlusMinusMobile.DAL\PlusMinusMobile.DAL.csproj" />
+  </ItemGroup>
+
+</Project>

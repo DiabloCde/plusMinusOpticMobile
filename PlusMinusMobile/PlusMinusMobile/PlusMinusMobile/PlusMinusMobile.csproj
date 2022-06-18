@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+	  <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
+	  <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2012" />  
+    <PackageReference Include="Xamarin.Essentials" Version="1.6.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\PlusMinusMobile.BLL\PlusMinusMobile.BLL.csproj" />
+    <ProjectReference Include="..\..\PlusMinusMobile.Core\PlusMinusMobile.Core.csproj" />
+    <ProjectReference Include="..\..\PlusMinusMobile.DAL\PlusMinusMobile.DAL.csproj" />
+  </ItemGroup>
+</Project>
